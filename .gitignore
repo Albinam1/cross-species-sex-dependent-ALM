@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Raw and derived data
+*.vcf
+*.vcf.gz
+*.bcf
+*.tar.gz
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.tsv.gz
+*.txt
+
+# Keep documentation text files if explicitly tracked
+!README.md
+!requirements.txt
+
+# PLINK outputs / reference files
+*.bed
+*.bim
+*.fam
+*.clumped
+*.log
+*.nosex
+
+# Figures and analysis outputs
+results/
+figures/
+
+# Keep plotting source code (while ignoring generated top-level figures/)
+!scripts/figures/
+!scripts/figures/*.py
